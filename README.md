@@ -2,7 +2,7 @@
 > <div align="justify">Peptide self-assembly is of crucial importance for obtaining advanced supramolecular materials with rich chemical and structural properties. Here, we present a novel recurrent neural network-based method to evaluate the self-assembly potential of unclassified peptides with varying lengths using only peptide sequences as input. The key advantage of the approach lies in leveraging irregularly sampled features, specifically the aggregation propensity scores of amino acids, dipeptides, and tripeptides, as predictor variables for any given peptide under consideration. To assess the effectiveness of the proposed machine learning models, we employed a genetic algorithm-based generative approach to create new sequences with a high affinity towards self-assembly. Our models serve as a knowledgeable tool for complementing human intuition in an endeavour to find novel self-assembling compounds.</div>
 
 ## System requirements
-A standard desktop computer with 4+ GB RAM and a single-core, 2+ GHz CPU should suffice to run the algorithms. `Conda` package manager is required to set up a Python environment and install dependencies. The code was tested on Ubuntu 22.04 and Windows 11 operating systems.
+A standard desktop computer with 4+ GB RAM and a single-core, 2+ GHz CPU should suffice to run the algorithms. `Conda` package manager is required to set up a Python environment and install dependencies. Software dependencies along with version numbers are detailed in ```ml_peptide_self_assembly.yml``` file. The code was tested on Ubuntu 22.04 and Windows 11 operating systems.
 
 ## Environment setup &amp; activation
 Use `conda` and `ml_peptide_self_assembly.yml` to create an environment. This usually takes about 5 minutes.
