@@ -12,7 +12,7 @@ Use `conda` and `ml_peptide_self_assembly.yml` to create an environment. This us
     conda activate ml_peptide_self_assembly
 
 ## Important notes
-- The code should be run from the root (```ml_peptide_self_assembly```) directory.
+- The code should be run from the root (```ml_peptide_self_assembly```) directory with the conda environment active.
 - If you want to train your model and perform hyperparameter optimization, modify the peptide list and labels in ```SA_ML_predictive/data/data_SA.csv```, and alter the hyperparameter values in the header of ```SA_ML_predictive/code/automate_training.py``` before running the scripts.
 - Prediction time varies with the model used but usually takes about 15 seconds.
 - The generative model takes about 5 minutes to suggest novel peptides.
