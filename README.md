@@ -7,6 +7,7 @@ A standard desktop computer with 4+ GB RAM and a single-core, 2+ GHz CPU should 
 ## Environment setup &amp; activation
 Use `conda` and `ml_peptide_self_assembly.yml` to create an environment. This usually takes about 5 minutes.
 
+    git clone https://github.com/anonymous-dbpr/ml_peptide_self_assembly.git
     cd ml_peptide_self_assembly
     conda env create -f ml_peptide_self_assembly.yml
     conda activate ml_peptide_self_assembly
